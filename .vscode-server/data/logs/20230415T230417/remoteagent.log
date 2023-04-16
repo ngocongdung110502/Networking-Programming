@@ -1,0 +1,13 @@
+2023-04-15 23:04:17.801 [info] 
+
+
+
+
+2023-04-15 23:04:17.941 [info] Extension host agent started.
+2023-04-15 23:04:18.256 [info] [127.0.0.1][a862dbd3][ManagementConnection] New connection established.
+2023-04-15 23:04:20.253 [info] [127.0.0.1][e8422de7][ExtensionHostConnection] New connection established.
+2023-04-15 23:04:20.264 [info] [127.0.0.1][e8422de7][ExtensionHostConnection] <95> Launched Extension Host Process.
+2023-04-15 23:04:23.283 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2023-04-16 00:43:53.642 [info] [127.0.0.1][a862dbd3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-16 00:43:53.875 [info] [127.0.0.1][e8422de7][ExtensionHostConnection] <95> Extension Host Process exited with code: 0, signal: null.

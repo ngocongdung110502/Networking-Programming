@@ -1,0 +1,40 @@
+2023-04-14 10:19:01.572 [info] 
+
+
+
+
+2023-04-14 10:19:01.572 [info] Extension host agent started.
+2023-04-14 10:19:01.625 [info] Started initializing default profile extensions in extensions installation folder. file:///home/dungcngo/.vscode-server/extensions
+2023-04-14 10:19:01.807 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/dungcngo/.vscode-server/extensions
+2023-04-14 10:19:01.860 [info] [127.0.0.1][df37d9cd][ManagementConnection] New connection established.
+2023-04-14 10:19:03.008 [info] [127.0.0.1][9f24cfd6][ExtensionHostConnection] New connection established.
+2023-04-14 10:19:03.075 [info] [127.0.0.1][9f24cfd6][ExtensionHostConnection] <451> Launched Extension Host Process.
+2023-04-14 10:20:17.355 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:17.660 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:19.208 [info] Getting Manifest... ms-vscode.cpptools
+2023-04-14 10:20:21.014 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-04-14 10:20:22.854 [info] Getting Manifest... twxs.cmake
+2023-04-14 10:20:23.109 [info] Getting Manifest... ms-vscode.cpptools-themes
+2023-04-14 10:20:23.363 [info] Installing extension: ms-vscode.cpptools ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:23.363 [info] Installing extension: ms-vscode.cmake-tools ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:23.363 [info] Installing extension: twxs.cmake ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:23.364 [info] Installing extension: ms-vscode.cpptools-themes ms-vscode.cpptools-extension-pack
+2023-04-14 10:20:46.654 [info] Extension signature is verified: ms-vscode.cmake-tools
+2023-04-14 10:20:46.980 [info] Extracted extension to /home/dungcngo/.vscode-server/extensions/.d6182418-3d42-4568-b705-c5016d9e8185: ms-vscode.cmake-tools
+2023-04-14 10:20:46.987 [info] Renamed to /home/dungcngo/.vscode-server/extensions/ms-vscode.cmake-tools-1.13.45
+2023-04-14 10:20:46.993 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-04-14 10:20:48.273 [info] Extension signature is verified: ms-vscode.cpptools-themes
+2023-04-14 10:20:48.306 [info] Extracted extension to /home/dungcngo/.vscode-server/extensions/.a97b500f-810d-41ce-ad40-35d032517c8d: ms-vscode.cpptools-themes
+2023-04-14 10:20:48.311 [info] Renamed to /home/dungcngo/.vscode-server/extensions/ms-vscode.cpptools-themes-2.0.0
+2023-04-14 10:20:48.312 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2023-04-14 10:21:02.523 [info] Extension signature is verified: twxs.cmake
+2023-04-14 10:21:02.804 [info] Extracted extension to /home/dungcngo/.vscode-server/extensions/.bdca4938-52e6-4575-9a3c-f3ce9b3c71bf: twxs.cmake
+2023-04-14 10:21:02.817 [info] Renamed to /home/dungcngo/.vscode-server/extensions/twxs.cmake-0.0.17
+2023-04-14 10:21:02.819 [info] Extracting extension completed. twxs.cmake
+2023-04-14 10:23:29.787 [info] [127.0.0.1][df37d9cd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-14 10:23:29.816 [info] [127.0.0.1][9f24cfd6][ExtensionHostConnection] <451> Extension Host Process exited with code: 0, signal: null.
+2023-04-14 10:23:32.298 [info] [127.0.0.1][5083e411][ManagementConnection] New connection established.
+2023-04-14 10:23:32.937 [info] [127.0.0.1][452dd129][ExtensionHostConnection] New connection established.
+2023-04-14 10:23:32.998 [info] [127.0.0.1][452dd129][ExtensionHostConnection] <545> Launched Extension Host Process.
+2023-04-14 10:23:35.954 [info] [127.0.0.1][5083e411][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-14 10:23:36.019 [info] [127.0.0.1][452dd129][ExtensionHostConnection] <545> Extension Host Process exited with code: 0, signal: null.

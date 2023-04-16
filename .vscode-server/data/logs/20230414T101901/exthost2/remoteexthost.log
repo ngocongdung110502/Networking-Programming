@@ -1,0 +1,10 @@
+2023-04-14 10:23:34.280 [info] Extension host with pid 545 started
+2023-04-14 10:23:34.339 [info] Lock '/home/dungcngo/.vscode-server/data/User/workspaceStorage/e6c2c52bfe9d1e00b7c0f34e0b21a00a/vscode.lock': Lock acquired.
+2023-04-14 10:23:34.729 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-04-14 10:23:34.896 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-14 10:23:34.931 [info] Eager extensions activated
+2023-04-14 10:23:34.932 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-14 10:23:34.933 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-14 10:23:35.952 [info] Extension host terminating: received terminate message from renderer
+2023-04-14 10:23:35.954 [info] Lock '/home/dungcngo/.vscode-server/data/User/workspaceStorage/e6c2c52bfe9d1e00b7c0f34e0b21a00a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-14 10:23:35.971 [info] Extension host with pid 545 exiting with code 0

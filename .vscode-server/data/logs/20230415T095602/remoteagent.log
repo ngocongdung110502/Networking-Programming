@@ -1,0 +1,16 @@
+2023-04-15 09:56:02.123 [info] 
+
+
+
+
+2023-04-15 09:56:02.170 [info] Extension host agent started.
+2023-04-15 09:56:02.323 [info] [127.0.0.1][ef22b723][ManagementConnection] New connection established.
+2023-04-15 09:56:03.230 [info] [127.0.0.1][e6e1ac34][ExtensionHostConnection] New connection established.
+2023-04-15 09:56:03.239 [info] [127.0.0.1][e6e1ac34][ExtensionHostConnection] <114> Launched Extension Host Process.
+2023-04-15 09:56:14.266 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2023-04-15 11:36:34.635 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-15 11:51:43.351 [info] [127.0.0.1][e6e1ac34][ExtensionHostConnection] The client has reconnected.
+2023-04-15 11:51:43.858 [info] [127.0.0.1][ef22b723][ManagementConnection] The client has reconnected.
+2023-04-15 14:46:04.120 [info] [127.0.0.1][ef22b723][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-15 14:46:04.324 [info] [127.0.0.1][e6e1ac34][ExtensionHostConnection] <114> Extension Host Process exited with code: 0, signal: null.
