@@ -7,3 +7,5 @@
 2023-04-16 15:51:19.670 [info] [127.0.0.1][ab066d10][ManagementConnection] New connection established.
 2023-04-16 15:51:20.773 [info] [127.0.0.1][13acaa57][ExtensionHostConnection] New connection established.
 2023-04-16 15:51:20.787 [info] [127.0.0.1][13acaa57][ExtensionHostConnection] <12462> Launched Extension Host Process.
+2023-04-16 16:30:28.387 [info] [127.0.0.1][ab066d10][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-16 16:30:28.502 [info] [127.0.0.1][13acaa57][ExtensionHostConnection] <12462> Extension Host Process exited with code: 0, signal: null.
