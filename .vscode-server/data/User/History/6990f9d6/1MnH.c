@@ -46,17 +46,13 @@ int main(int argc, char *argv[]) {
         printf("Nhap du lieu: ");
         fgets(message, BUFFER_SIZE, stdin);
 
-        send(sock, message, strlen(message), 0);
-
-        if(strncmp(message, "exit", 4) == 0)
-            break;
-        // // Gửi dữ liệu đến server
-        // if (send(sock, message, strlen(message), 0) < 0) {
-        //     perror("Gui du lieu that bai");
-        //     return 1;
-        // }else if{
-        //     printf("Gui du lieu thanh cong!\n");
-        // }
+        // Gửi dữ liệu đến server
+        if (send(sock, message, strlen(message), 0) < 0) {
+            perror("Gui du lieu that bai");
+            return 1;
+        }else if{
+            printf("Gui du lieu thanh cong!\n");
+        }
 
         int ret = recv(sock, message, sizeof(message), 0);
         if(ret == -1){

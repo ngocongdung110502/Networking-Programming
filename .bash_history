@@ -112,3 +112,10 @@ cd ~/LTM/btvn1/
 cd ~/LTM/20230403
 ./server1
 cd ~/LTM/20230403/
+cd ~/LTM/btvn1/
+./tcp_client 
+./tcp_client 202.191.57.199 80
+cd ~/LTM/btvn1/
+./tcp_client 202.191.57.199 80
+cd ~/LTM/btvn1/
+./tcp_client 202.191.57.199 80

@@ -29,9 +29,11 @@ int main(int argc, char *argv[]) {
     printf("Socket created: %d\n", sock);
 
     // Đặt địa chỉ của server
-    server.sin_addr.s_addr = inet_addr(argv[1]);
+    char *serverIP = argv[1];
+    int portNum = atoi(argv[2]);
+    server.sin_addr.s_addr = inet_addr(serverIP);
     server.sin_family = AF_INET;
-    server.sin_port = htons(atoi(argv[2]));
+    server.sin_port = htons(portNum);
 
     // Kết nối đến server
     if (connect(sock, (struct sockaddr *)&server, sizeof(server)) < 0) {
@@ -46,30 +48,22 @@ int main(int argc, char *argv[]) {
         printf("Nhap du lieu: ");
         fgets(message, BUFFER_SIZE, stdin);
 
-        send(sock, message, strlen(message), 0);
-
-        if(strncmp(message, "exit", 4) == 0)
-            break;
-        // // Gửi dữ liệu đến server
-        // if (send(sock, message, strlen(message), 0) < 0) {
-        //     perror("Gui du lieu that bai");
-        //     return 1;
-        // }else if{
-        //     printf("Gui du lieu thanh cong!\n");
-        // }
-
-        int ret = recv(sock, message, sizeof(message), 0);
-        if(ret == -1){
-            perror("recv() failed");
-            return 1;
-        }else if(ret == 0){
-            printf("Connection closed!\n");
+        // Gửi dữ liệu đến server
+        if (send(sock, message, strlen(message), 0) < 0) {
+            perror("Gui du lieu that bai");
             return 1;
         }
 
-        if(ret < sizeof(message))
-            message[ret] = '\0';
-        printf("%d bytes received: %s\n", ret, message);
+        // // Nhận dữ liệu từ server
+        // if (recv(sock, server_reply, BUFFER_SIZE, 0) < 0) {
+        //     perror("Nhan tin nhan tu server that bai");
+        //     break;
+        // }
+
+        // printf("Server tra loi: %s\n", server_reply);
+
+        printf("Gui du lieu thanh cong!\n");
+        return 0;
     }
 
     close(sock);

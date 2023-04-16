@@ -7,3 +7,11 @@
 2023-04-16 08:09:00.244 [info] [127.0.0.1][37ede0bf][ManagementConnection] New connection established.
 2023-04-16 08:09:01.166 [info] [127.0.0.1][58240219][ExtensionHostConnection] New connection established.
 2023-04-16 08:09:01.173 [info] [127.0.0.1][58240219][ExtensionHostConnection] <114> Launched Extension Host Process.
+2023-04-16 11:48:36.339 [info] [127.0.0.1][37ede0bf][ManagementConnection] The client has reconnected.
+2023-04-16 11:48:36.749 [info] [127.0.0.1][58240219][ExtensionHostConnection] The client has reconnected.
+2023-04-16 12:10:48.152 [info] [127.0.0.1][58240219][ExtensionHostConnection] The client has reconnected.
+2023-04-16 12:10:48.434 [info] [127.0.0.1][37ede0bf][ManagementConnection] The client has reconnected.
+2023-04-16 15:27:02.413 [info] [127.0.0.1][58240219][ExtensionHostConnection] The client has reconnected.
+2023-04-16 15:27:02.987 [info] [127.0.0.1][37ede0bf][ManagementConnection] The client has reconnected.
+2023-04-16 15:51:13.665 [info] [127.0.0.1][37ede0bf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-16 15:51:13.842 [info] [127.0.0.1][58240219][ExtensionHostConnection] <114> Extension Host Process exited with code: 0, signal: null.
